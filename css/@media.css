@@ -1,0 +1,9 @@
+@media (width: 700px) {
+    body{
+        color: #000;
+    }
+
+    #navigation{
+        display: none;
+    }
+}

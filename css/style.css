@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    color: #1d1d1d;
+}
+
+#header{
+    position: fixed;
+    padding: 10px;
+    width: 100%;
+    z-index: 9;
+    background: #fff;
+}
+
+.logo{
+    float: left;
+    font-weight: bold;
+    font-size: 1.6em;
+}
+
+.logo .ge, .logo .an{
+    float: left;
+}
+
+.logo .ge{
+    background: #daa520;
+    padding: 5px;
+}
+
+.logo .an{
+    border: 1px solid #1d1d1d10;
+    padding: 4px;
+    color: #daa520;
+}
+
+.menu{
+    float: right;
+}
+
+.menu li{
+    display: inline-flex;
+    margin: 10px;
+    list-style: none;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: #1d1d1d;
+    font-weight: 400;
+}
+
+.link.active{
+    border-bottom: 2px solid #daa520;
+}
+
+.link.active a{
+    color: #daa520;
+    font-weight: bold;
+}
+
+.social-midia{
+    float: right;
+}
+
+.social-midia a{
+    font-size: 1.4em;
+    margin-left: 5px;
+    margin-top: 10px;
+    text-decoration: none;   
+    color: #daa520;
+}
+
+#landingpage{
+    float: left;
+    width: 100%;
+    padding: 20px;
+}
+
+#landingpage .text{
+    float: left;
+    padding-top: 120px;
+    border-right: #1d1d1d10 solid 1px;
+}
+
+#landingpage .image{
+    float: right;
+    padding-top: 80px;
+}
+
+#landingpage .image img{
+    /* width: 70%; */
+    float: right;
+}
+
+.cta{
+    background: #daa520;
+    color: #fff;
+}
+
+.cta-1{
+    background: #1d1d1dc4;
+    color: #fff;
+}
+
+.cta:hover{
+    background: #ca9a21;
+    color: #fff;
+}
+
+.cta-1:hover{
+    background: #1d1d1d;
+    color: #fff;
+}
+
+#about{
+    padding: 20px;
+}
+
+#about .image{
+    float: left;
+}
+
+#about .text{
+    float: right;
+    padding-top: 100px;
+}
+
+#services{
+    float: left;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+#services aside{
+    float: left;
+    width: 100%;
+    padding: 40px 0px;
+    text-align: center;
+}
+
+h3{
+    color: #daa520;
+    text-transform: uppercase;
+}
+
+#services .card{
+    display: inline-table;
+    margin: 8px 20px;
+    height: 320px;
+    text-align: left;
+}
+
+#services .card img{
+    height: 160px;
+}
+
+
+#services .card:hover{
+    transform: scale(1.1);
+    transition: .2s;
+}
+
+#skills{
+    float: left;
+    width: 100%;
+    margin-top: 100px;
+}
+
+#skills aside{
+    float: left;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+}
+
+#skills article{
+    float: left;
+    margin: 20px;
+}
+
+h4{
+    font-size: 1.3em;
+}
+
+.progressBar{
+    width: 100%;
+    float: left;
+    border: 0.5px solid #1d1d1d3d;
+    border-radius: 4px;
+    height: 6px;
+}
+
+.progressBar span{
+    float: left;
+    background: #daa520;
+    height: 4px;
+}
+
+footer{
+    float: left;
+    width: 100%;
+    padding: 8px;
+    border-top: 1px solid #4d4a4a17;
+}
